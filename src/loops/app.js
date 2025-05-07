@@ -205,3 +205,67 @@ const prompt = require('prompt-sync')();
 // }
 
 // Question : Guess the number game
+
+// let random = Math.floor(Math.random()*100+1)
+
+// let guess = 0;
+// while ( guess !== random){
+//   guess = +prompt(" Guess the number between 1 - 100 ")
+//   if (isNaN(guess) || guess < 0 || guess > 100 )
+//   {console.log("invalid input, try again");
+//          continue
+//                          }
+  
+//   if(guess > random){
+//     console.log("Your guess is too high 📈");
+//   } else if( guess < random){
+//     console.log("Your guess is too low 📉");
+//   }else 
+//   {
+//     console.log('Congrats 🎉🥳 you have guessed it right number was '+guess);
+//   }
+// }
+
+
+// Question : Sasta calculator
+
+// let userOption = firstNumber = secondNumber = 0;
+
+// while(true){
+//   userOption = +prompt(" Select a number from 1 - 4: 1-addition, 2-subtraction, 3-multiplication, 4- divide ")
+//   if (isNaN(userOption) || userOption >4 || userOption<1 ){
+//     console.log("Invalid input, kindly try again");
+//     continue
+//   }else{
+
+//    firstNumber = +prompt(" Enter first number ")
+//    if(isNaN(firstNumber)) {console.log("Please enter number ");
+//     continue
+//    } 
+
+//    secondNumber = +prompt(" Enter second number ")
+//     if (isNaN(secondNumber)) { console.log("Please enter number "); 
+//       continue
+//     } 
+//     if(userOption === 1){
+//       console.log(`Addition of ${firstNumber}+${secondNumber} = ${firstNumber + secondNumber} `);
+//       break;
+
+//     }else if(userOption === 2){
+//       console.log(`Subtraction of ${firstNumber}-${secondNumber} = ${firstNumber - secondNumber} `);
+//       break;
+
+//     }else if( userOption === 3){
+//       console.log(`Multiplication of ${firstNumber}*${secondNumber} = ${firstNumber * secondNumber} `);
+//       break;
+
+//     }else if (userOption ===4){
+//       console.log(`Division of ${firstNumber}/${secondNumber} = ${firstNumber / secondNumber} `);
+//       break;
+
+//     }else {
+//       console.log("Invalid operation");
+//     }
+//   }
+// }
+
